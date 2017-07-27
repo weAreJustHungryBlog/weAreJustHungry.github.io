@@ -5,17 +5,51 @@
     <link type="text/css" rel="stylesheet" href="allRecipes.css">
     <script src="jquery.js"></script>
   	<script src="loadHeaderFooter.js"></script>
+    <script src = "recipeSlideshow"></script>
   </head>
   
   <body>
     <!-- Div to fit the header -->
     <div class="headerContent"> </div>
+    
+      <!-- Picture slideshow -->
+  <div id = "recipeSlideshowContainer">
+    <div class = "recipeSlides"> 
+      <img src="pics/slideshowGeneric.jpg"/>
+    </div>
+  
+    <div class = "recipeSlides"> 
+      <img src="pics/slideshowGeneric2.jpg"/>
+    </div>
+
+    <div class = "recipeSlides"> 
+      <img src="pics/slideshowGeneric.jpg"/>
+    </div>
+
+    <div class = "recipeSlides"> 
+      <img src="pics/slideshowGeneric.jpg"/>
+    </div>
+
+    <div class = "recipeSlides"> 
+      <img src="pics/slideshowGeneric.jpg"/>
+    </div>
+
+    <a class="leftButton" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="rightButton" onclick="plusSlides(+1)">&#10095;</a>
+
+    <div id="dotContainer">
+      <span class="dot" onclick="currentSlides(1)"></span>
+      <span class="dot" onclick="currentSlides(2)"></span>
+      <span class="dot" onclick="currentSlides(3)"></span>
+      <span class="dot" onclick="currentSlides(4)"></span>
+      <span class="dot" onclick="currentSlides(5)"></span>
+    </div>
+
+  </div>
 
     <p class = "title">Find all our recipes in alphabetical order here</p>
-    <ul>
-      <li><a href="recipeTemplate.html">Random Recipe 1</a></li>
-      <li><a href="recipeTemplate.html">Random Recipe 2</a></li>
-    </ul>
+    <p>There are no recipes here yet. Make sure to check again in the future!</p>
+    
     <!-- to fit the footer-->
     <footer class="footerContent"></footer>
   </body>
