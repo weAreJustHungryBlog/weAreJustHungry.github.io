@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+#FeatSection {
+	padding-bottom: 2.5rem;
+	padding-top: 2.5rem;
+	position: relative;
+	width: 94%;
+	margin: auto;
+}
+
+.FeatImg {
+	position: relative;
+	top: 1rem;
+	display: inline-block;
+	width: 33%;
+	margin: auto;
+}
+
+.FeatImg p{
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	width: 85%;
+	position: relative;
+	margin: auto;
+	box-shadow: 10px 10px 10px grey;
+	border: 4px solid black;
+	box-sizing: border-box;
+	font-family: "Permanent Marker";
+}
+
+.FeatImg img{
+	display: block;
+	width: 85%;
+	height: auto;
+	margin: auto;
+    box-shadow: 10px 15px 10px grey;
+}
+
+@media only screen and (max-width: 865px){
+	#FeatSection {
+		top: 2rem;
+		width: 96%;
+		margin: auto;
+	}
+
+	.FeatImg {
+		padding-bottom: 1rem;
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
+
+	.FeatImg p{
+		text-align: center;
+		position: relative;
+	}
+
+	.FeatImg img{
+		display: block;
+		width: 90.9%;
+		height: auto;
+		margin: auto;
+	}
+}
+
+/*
+#FeatSection{
+	display: flex;
+}
+
+.FeatImg{
+	margin: 20px;
+}
+
+.FeatImg{
+	width: 33%;
+	height: auto;
+}
+*/

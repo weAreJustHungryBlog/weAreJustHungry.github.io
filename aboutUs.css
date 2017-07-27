@@ -1,0 +1,23 @@
+.contentText{
+} 
+
+.subtitle{
+	text-align: center;
+}
+
+p{
+	font-family: "Kalam";
+	font-size: 1.5rem;
+}
+
+#aboutUsBackground{
+	margin: 5rem 10rem 12rem 10rem;
+	padding: 3rem;
+	background-color: rgba(230, 230, 230, 0.5);
+}
+
+body{
+	background-image: url("pics/bcn4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}

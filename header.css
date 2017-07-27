@@ -1,0 +1,140 @@
+* {
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+}
+
+#titleImage{
+/* For background image */
+	z-index: 2000;
+	height: 8rem;
+	width: 100%;
+	background-size: contain;
+	background-image: url("pics/titleBackground.png");
+	position: fixed;
+}
+
+#titleImage p{
+/* For Title */
+	width: 100%;
+	text-align: center;
+	font-size: 3rem;
+	font-family: 'Rock Salt', serif;
+	position: fixed;
+	background-color: transparent;
+	line-height: 8rem;
+
+}
+
+#NavigationBar {
+	width: 100%;
+	position: fixed;
+	top: 8rem;
+	z-index: 1000;
+	cursor: pointer;
+	font-family: "Courgette", serif;
+	font-size: 1.2rem;
+	line-height: 1em;
+}
+
+#NavigationBar > div, #NavigationBar > a{
+	text-align: center;
+
+	padding: 0.8rem 0;
+	width: 16.6667%;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	background-color: rgb(181, 181, 181);
+	border-left: 2px solid black;
+}
+
+#recipeDropDown{
+	margin-top: 0.8rem;
+	position: absolute;
+	z-index: 1999;
+	display: none;
+	width: 100%;
+	box-shadow: 10px 0 10px rgba(200, 200, 200, 0.5);
+}
+
+#recipeDropDown a{
+	border-top: 1px solid black;
+	padding: 0.5rem 0;
+	color: black;
+	background-color: rgb(181, 181, 181);
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#recipeDropDown a:hover{
+	background-color: rgb(230,230,230);
+
+}
+
+#recipeMenuContainer{
+	position: relative;
+}
+
+#positionFixer{
+	height: 11rem;
+	width: 200px;
+}
+
+@media only screen and (max-width: 620px){
+
+	/*shrink title text*/
+	#titleImage p{
+		font-size: 2rem;
+		line-height: 5.3rem;
+	}
+
+	/*shrink background image*/
+	#titleImage{
+		height: 5.3rem;
+	}
+
+	#NavigationBar{
+		top: 5.3rem;
+	}
+
+	/*adjust position of all other elements on the page */
+	#positionFixer{
+		height: 8.3rem;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	/*make the text navigation bar smaller*/
+	#NavigationBar{
+		font-size: 0.85rem;
+	}
+
+}
+
+@media only screen and (max-width: 420px){
+
+	/*shrink title text */
+	#titleImage p{
+		font-size: 1rem;
+		line-height: 2.7rem;
+	}
+
+	/*shrink background image */
+	#titleImage{
+		height: 2.7rem;
+	}
+
+	/*adjust position of the navigation bar and make the text in it smaller*/
+	#NavigationBar{
+		top: 2.7rem;
+		font-size: 0.7rem;
+	}
+
+	/*adjust position of all other elements on the page */
+	#positionFixer{
+		height: 5.7rem;
+	}
+}

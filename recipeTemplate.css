@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(190, 190, 190)
+}
+
+.recipe {
+	position: relative;
+	top: 1rem;
+	margin-left: 2em;
+}
+
+.recipe li{
+	margin-left: 1em;
+}
+
+.recipeImg{
+	background-image: url("pics/genericFood2.jpg");
+	background-size: cover;
+	height: 20em;
+	width: 30em;
+	display: block;
+	margin: 1em 0em;
+}

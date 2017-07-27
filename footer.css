@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+html{
+	position: relative;
+	min-height: 100%; 
+}
+
+body{
+	margin-bottom: 100px;
+}
+
+#footerContainer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+
+hr{
+	color: black;
+	background-color: black;
+	height: 5px;
+}
+
+.footerText{
+	color: black;
+	font-size: 1.3rem;
+	position: relative;
+	text-align: center;
+}
+
+.sm-thumbnails{
+	margin: 0.5rem;
+	margin-right: 0.8rem;
+	height: 40px;
+	width: auto;
+	float: right;
+}
