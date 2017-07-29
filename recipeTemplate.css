@@ -14,10 +14,8 @@
 }
 
 .recipeImg{
-	background-image: url("pics/genericFood2.jpg");
-	background-size: cover;
-	height: 20em;
-	width: 30em;
+	width: 50%;
+	height: auto;
 	display: block;
 	margin: 1em 0em;
 }
