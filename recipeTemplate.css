@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	background-color: rgb(190, 190, 190)
 }
 
 .recipe {
@@ -9,8 +10,8 @@
 	margin-left: 2em;
 }
 
-.recipe li{
-	margin-left: 1em;
+.recipe  li{
+	margin-left: 2em;
 }
 
 .recipeImg{
@@ -20,4 +21,8 @@
 	width: 30em;
 	display: block;
 	margin: 1em 0em;
+}
+
+.recipe >p, p>a{
+	padding-right: 20%;
 }
