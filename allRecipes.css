@@ -19,9 +19,7 @@ p, li a{
 #recipeSlideshowContainer{
 	margin: auto;
 	max-width: 700px;
-	max-height: 500px;
 	position: relative;
-	white-space: nowrap;
 }
 
 .recipeSlides{
