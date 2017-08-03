@@ -42,9 +42,7 @@
     box-shadow: 10px 15px 10px grey;
 }
 
-@media only screen and (max-width: 865px) or (device-width: 320px) or 
-	(min-device-width: 375px) and (max-device-width: 667px) or 
-	(min-device-width:414px) and (max-device-width: 736px)
+@media only screen and (max-width: 865px)
 {
 	#FeatSection {
 		top: 2rem;
