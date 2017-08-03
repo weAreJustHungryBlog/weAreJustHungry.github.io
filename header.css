@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-
 	box-sizing: border-box;
 }
 
@@ -56,7 +55,6 @@
 	z-index: 1999;
 	display: none;
 	width: 100%;
-	box-shadow: 10px 0 10px rgba(200, 200, 200, 0.5);
 }
 
 #recipeDropDown a{
