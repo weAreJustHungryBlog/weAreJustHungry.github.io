@@ -20,6 +20,6 @@
 	margin: 1em 0em;
 }
 
-.recipe >p, p>a{
+.recipe p, recipe a{
 	padding-right: 20%;
 }
