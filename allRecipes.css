@@ -5,17 +5,13 @@
 }
 
 .title{
-	font-size: 1.5rem;
-	z-index: 2100;
-	padding: 1rem;
+	font-size: 2.5rem;
+	text-align: center;
+	font-family: "Satisfy";
+	padding: 2rem;
 }
 
-p, li a{
-	padding-left: 1.5rem;
-	text-decoration: none;
-	color: black;
-}
-
+/*for slideshow*/
 #recipeSlideshowContainer{
 	margin: auto;
 	max-width: 700px;
@@ -68,4 +64,158 @@ p, li a{
 
 .activeDot{
 	background-color: black;
+}
+
+/*for recipe list*/
+
+.recipeListContainer{
+	width: 90%;
+	margin: auto;
+}
+
+.recipeListItem{
+	position: relative;
+	width: 25%;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.recipeListItemImage{
+	width: 100%;
+	height: auto;
+}
+
+.recipeListItemTitle{
+	width: 100%;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.recipeListItemText{
+	height: 6rem;
+}
+
+.recipeListItemTitle, .recipeListItemText, .recipeListItemDate{
+	padding: 0 0.5rem 0 0.5rem;
+}
+
+.recipeListItemDate{
+	color: rgb(150, 150, 150);
+	font-size: 0.9rem;
+	font-style: italic;
+}
+
+.recipeListItemThumbnails>img{
+	height: 2.25rem;
+	width: 2.25rem;
+	margin-right: 0.3rem;
+}
+
+.legend{
+	max-width: 1200px;
+	margin: auto;
+	padding: 2rem 3rem 0 3rem;
+}
+
+.legendTitle{
+	font-size: 2rem;
+}
+
+.legendItems{
+	display: inline-block;
+	font-size: 1.75rem;
+	margin: 1rem;
+}
+
+.legendItems img{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1350px){
+	.recipeListItemText{
+		height: 8rem;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.recipeListContainer{
+		width: 90%;
+	}
+
+	.recipeListItem{
+		width: 33.33%;
+		padding: 1rem;
+	}
+
+	.recipeListItemText{
+		height: 7rem;
+	}
+}
+
+@media only screen and (max-width: 970px){
+	.recipeListItemText{
+		height: 9rem;
+	}
+}
+
+
+@media only screen and (max-width: 850px){
+	.recipeListContainer{
+		width: 80%;
+	}
+
+	.recipeListItem{
+		width: 50%;
+		padding: 1.5rem;
+	}
+
+	.recipeListItemText{
+		height: 7rem;
+	}
+}
+
+
+@media only screen and (max-width: 700px){
+	.recipeListItem{
+		width: 100%;
+	}
+
+	.recipeListItemText{
+		height: 4rem;
+	}
+
+	.recipeListItemThumbnail{
+		width: 1rem;
+		height: 1rem;
+		padding-right: 0.1rem;
+	}
+
+	.legendTitle{
+		font-size: 1.5rem;
+	}
+
+	.legendItems{
+		font-size: 1.25rem;
+	}
+}
+
+@media only screen and (max-width: 555px){
+	.recipeListItemText{
+		height: 5rem;
+	}
+
+	.legentTitle{
+		font-size: 1.25rem;
+	}
+	.legendItems{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	.recipeListItemText, .recipeListItemDate, .recipeListItemThumbnails{
+		display: none;
+	}
 }
