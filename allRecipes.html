@@ -7,9 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Courgette|Satisfy" rel="stylesheet"></link>
 
     <link type="text/css" rel="stylesheet" href="allRecipes.css">
-    <script src="jquery.js"></script>
-  	<script src="loadHeaderFooter.js"></script>
-    <script src="recipeSlideshow.js"></script>
+    <script src="javaScript/jquery.js"></script>
+  	<script src="javaScript/loadHeaderFooter.js"></script>
+    <script src="javaScript/recipeSlideshow.js"></script>
   </head>
   
   <body>
@@ -19,19 +19,15 @@
       <!-- Picture slideshow -->
   <div id = "recipeSlideshowContainer">
     <div class = "recipeSlides"> 
-      <img src="pics/slideshowGeneric.jpg"/>
+      <img src="pics/avocadoSoup.jpeg"/>
     </div>
   
     <div class = "recipeSlides"> 
+      <img src="pics/mojitoCheesecake.jpeg"/>
+    </div>
+
+    <div class = "recipeSlides"> 
       <img src="pics/slideshowGeneric2.jpg"/>
-    </div>
-
-    <div class = "recipeSlides"> 
-      <img src="pics/slideshowGeneric.jpg"/>
-    </div>
-
-    <div class = "recipeSlides"> 
-      <img src="pics/slideshowGeneric.jpg"/>
     </div>
 
     <div class = "recipeSlides"> 
@@ -46,7 +42,6 @@
       <span class="dot" onclick="currentSlides(2)"></span>
       <span class="dot" onclick="currentSlides(3)"></span>
       <span class="dot" onclick="currentSlides(4)"></span>
-      <span class="dot" onclick="currentSlides(5)"></span>
     </div>
 
   </div>
@@ -54,58 +49,22 @@
     <p class = "title">Find all our Lunch Recipes below</p>
 
     <div class="recipeListContainer">
+
       <div class="recipeListItem">
-        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg" />
-        <p class = "recipeListItemTitle">Avocado Soup</p>
-        <!-- only four lines of text fit here -->
-        <p class = "recipeListItemText">Ever crave something refreshing during the summer?</p>
-        <div class="recipeListItemThumbnails"><img src="pics/lactoseFreeTag.jpg"/><img src="pics/veganTag.jpg"/><img src="pics/veggieTag.jpg"/><img src="pics/noFishTag.jpg"/><img src="pics/glutenFreeTag.jpg"/></div>
-        <p class = "recipeListItemDate">5th Oct. '98</p>
-      </div><!--
-
-  --><div class="recipeListItem">
-        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg" />
+        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg"/>
         <p class = "recipeListItemTitle">Avocado Soup</p>
         <p class = "recipeListItemText">Ever crave something refreshing during the summer? This recipe is perfect for cooling down and satisfying your cravings during a hot summer day</p>
         <div class="recipeListItemThumbnails"><img src="pics/lactoseFreeTag.jpg"/><img src="pics/veganTag.jpg"/><img src="pics/veggieTag.jpg"/><img src="pics/noFishTag.jpg"/><img src="pics/glutenFreeTag.jpg"/></div>
-        <p class = "recipeListItemDate">5th Oct. '98</p>
-      </div><!--
-
-
-   --><div class="recipeListItem">
-        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg" />
-        <p class = "recipeListItemTitle">Avocado Soup</p>
-        <p class = "recipeListItemText">Ever crave something refreshing during the summer? This recipe is perfect for cooling down and satisfying your cravings during a hot summer day</p>
-        <div class="recipeListItemThumbnails"><img src="pics/lactoseFreeTag.jpg"/><img src="pics/veganTag.jpg"/><img src="pics/veggieTag.jpg"/><img src="pics/noFishTag.jpg"/><img src="pics/glutenFreeTag.jpg"/></div>
-        <p class = "recipeListItemDate">5th Oct. '98</p>
-      </div><!--
-
-
-   --><div class="recipeListItem">
-        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg" />
-        <p class = "recipeListItemTitle">Avocado Soup</p>
-        <p class = "recipeListItemText">Ever crave something refreshing during the summer? This recipe is perfect for cooling down and satisfying your cravings during a hot summer day</p>
-        <div class="recipeListItemThumbnails"><img src="pics/lactoseFreeTag.jpg"/><img src="pics/veganTag.jpg"/><img src="pics/veggieTag.jpg"/><img src="pics/noFishTag.jpg"/><img src="pics/glutenFreeTag.jpg"/></div>
-        <p class = "recipeListItemDate">5th Oct. '98</p>
+        <p class = "recipeListItemDate">27th July '17</p>
       </div><!--
 
    --><div class="recipeListItem">
-        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/avocadoSoup.jpeg" />
+        <img class = "recipeListItemImage" src="https://wearejusthungryblog.github.io/pics/mojitoCheesecake.jpeg" />
         <p class = "recipeListItemTitle">Avocado Soup</p>
-        <p class = "recipeListItemText">Ever crave something refreshing during the summer? This recipe is perfect for cooling down and satisfying your cravings during a hot summer day</p>
+        <p class = "recipeListItemText">This recipe is perfect for a hot summer day or for a sweet snack.</p>
         <div class="recipeListItemThumbnails"><img src="pics/lactoseFreeTag.jpg"/><img src="pics/veganTag.jpg"/><img src="pics/veggieTag.jpg"/><img src="pics/noFishTag.jpg"/><img src="pics/glutenFreeTag.jpg"/></div>
-        <p class = "recipeListItemDate">5th Oct. '98</p>        
-      </div>
-    </div> 
-
-    <div class = "legend">
-      <p class = "legendTitle">If you have any allergies or follow a special diet, look out for these symbols.</p>
-        <p class="legendItems"><img src="pics/lactoseFreeTag.jpg"/> Lactose Free</p><!--
-     --><p class="legendItems"><img src="pics/veganTag.jpg"/> Vegan</p><!--
-     --><p class="legendItems"><img src="pics/veggieTag.jpg"/> Pescetarian</p><!--
-     --><p class="legendItems"><img src="pics/noFishTag.jpg"/> Vegetarian</p><!--
-     --><p class="legendItems"><img src="pics/glutenFreeTag.jpg"/> Gluten Free</p>
-    </div>
+        <p class = "recipeListItemDate">23rd July '17</p>
+      </div><!--
     
     <!-- to fit the footer-->
     <footer class="footerContent"></footer>
