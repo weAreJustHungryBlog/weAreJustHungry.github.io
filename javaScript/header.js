@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	// function to show dropdown menu 
 	$("#recipeMenuContainer").on('click', function(evt){
-	    $("#recipeDropDown").slideDown(100);
+	    $("#recipeDropDown").slideToggle(100);
 	    evt.stopPropagation();
 	})
 
@@ -11,4 +11,6 @@ $(document).ready(function(){
         	$('#recipeDropDown').slideUp(100);
     	}
 	});
+	
+	
 });
